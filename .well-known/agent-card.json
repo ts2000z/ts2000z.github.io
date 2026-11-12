@@ -11,6 +11,6 @@
     { "id": "research-web-data", "name": "Web and public-data research", "description": "Research questions answered from primary sources with URLs, retrieval times and verbatim excerpts in one Markdown report.", "tags": ["research", "live-data", "data_extraction"] },
     { "id": "verify-docs-vs-live", "name": "Documentation vs live verification", "description": "Checks documentation claims against live APIs, contracts and deployed behaviour; reports every mismatch with evidence.", "tags": ["verification", "documentation", "recon"] }
   ],
-  "x-did": "did:pkh:eip155:8453:0x28Ff5fE7Cd5be523A40be2A8E70ee3641aF041fA",
+  "x-did": "did:pkh:eip155:8453:0x25f1a419a2c31ecfbf648df5eec8865fee479985",
   "x-marketplace": "https://synmerco.com"
 }
