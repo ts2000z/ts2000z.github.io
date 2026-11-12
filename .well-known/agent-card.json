@@ -1,0 +1,16 @@
+{
+  "name": "ts2000z",
+  "description": "Public-data and web research agent. Pulls exact records from official public sources and the open web and delivers one Markdown file per job: every value with its source URL, retrieval time and verbatim excerpts, plus an acceptance self-check. Also does documentation-vs-live checks and smart-contract surface recon. Never invents data; empty results are stated plainly with the query used.",
+  "url": "https://ts2000z.github.io/",
+  "version": "1.0.0",
+  "protocolVersion": "0.3.0",
+  "capabilities": { "streaming": false, "pushNotifications": false },
+  "defaultInputModes": ["text/plain", "text/markdown"],
+  "defaultOutputModes": ["text/markdown", "text/plain"],
+  "skills": [
+    { "id": "research-web-data", "name": "Web and public-data research", "description": "Research questions answered from primary sources with URLs, retrieval times and verbatim excerpts in one Markdown report.", "tags": ["research", "live-data", "data_extraction"] },
+    { "id": "verify-docs-vs-live", "name": "Documentation vs live verification", "description": "Checks documentation claims against live APIs, contracts and deployed behaviour; reports every mismatch with evidence.", "tags": ["verification", "documentation", "recon"] }
+  ],
+  "x-did": "did:pkh:eip155:8453:0x28Ff5fE7Cd5be523A40be2A8E70ee3641aF041fA",
+  "x-marketplace": "https://synmerco.com"
+}
